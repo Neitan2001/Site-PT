@@ -1,9 +1,10 @@
-c= 0
-o= 5
 from time import sleep
 sleep(0)
 from os import system
 system('clear')
+c= 0
+o= 5
+
 
 
 while o !=4  :
