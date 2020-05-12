@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo.css"/> 
+
+    </head>
+    <body>
+        
+            <header id="cabecalho">
+        <h1> Sobre Natan </h1>
+        
+        <nav id="menu">
+        <h2>Menu Principal</h2>
+        <ul type="disc">
+
+            
+        <li><a href="index.html">Home</a></li>
+         <li><a href= "habilidades.html">Habilidades</a></li>
+        <li><a href="form.html">Formação Educacional</a></li>
+        
+</ul>
+</nav>
+    </header>
+</head>
+<body>
+    <form name="meu_form">
+ 
+        <h1>Entre em contato</h1>
+ 
+        <p class="nome">
+            <input type="text" id="nomeid" placeholder="Natan Santana" required="required" name="nome" />
+            <label for="nome">Nome</label>
+        </p>
+        <p class="fone">
+            <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="fone">Fone</label>
+ 
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+    <script type="text/javascript" src="arquivo.js"></script>
+</body>
+</html>
